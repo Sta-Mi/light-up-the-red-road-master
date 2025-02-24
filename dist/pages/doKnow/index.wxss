@@ -1,0 +1,118 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[4]!./src/pages/doKnow/index.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.doKnowPage {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a50102), to(rgb(250, 250, 250)));
+  background: -webkit-linear-gradient(top, #a50102, rgb(250, 250, 250));
+  background: linear-gradient(to bottom, #a50102, rgb(250, 250, 250));
+  padding: 0rpx 30rpx;
+}
+.doKnowPage .title {
+  color: white;
+  font-weight: bold;
+  padding-top: 48rpx;
+  text-align: center;
+  font-size: 70rpx;
+}
+.doKnowPage .progressView .progressBar {
+  padding: 30rpx 0rpx;
+  color: white;
+}
+.doKnowPage .progressView .progressBar .at-progress__outer {
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  margin-right: 0;
+  padding-right: 0;
+  border-radius: 10rpx;
+  background-color: rgba(0, 0, 0, 0.24);
+}
+.doKnowPage .progressView .progressBar .at-progress__outer-inner {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 8rpx;
+  vertical-align: middle;
+}
+.doKnowPage .progressView .progressTimeView {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60rpx;
+}
+.doKnowPage .progressView .progressTimeView .progressText {
+  color: white;
+  font-size: 40rpx;
+}
+.doKnowPage .progressView .progressTimeView .progressTime {
+  width: 100%;
+  text-align: end;
+  color: white;
+}
+.doKnowPage .progressView .progressTimeView .progressTime .at-countdown__time {
+  color: white;
+  font-size: 50rpx;
+}
+.doKnowPage .questionView {
+  height: 100%;
+  background: white;
+  border-radius: 10rpx;
+  padding: 40rpx;
+  margin-top: 40rpx;
+}
+.doKnowPage .questionView .questionTitle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.doKnowPage .questionView .questionTitle .questionType {
+  color: #da5e5e;
+  background: #fee4e9;
+  border-color: #fee4e9;
+}
+.doKnowPage .questionView .questionTitle .at-tag {
+  padding: 0 8rpx;
+  width: 28%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.doKnowPage .questionView .questionTitle .subTitle {
+  color: black;
+  margin-bottom: 12rpx;
+  margin-top: 0rpx;
+  font-size: 45rpx;
+  text-align: justify;
+  font-weight: bold;
+}
+.doKnowPage .questionView .options-wrapper {
+  margin-bottom: 48rpx;
+}
+.doKnowPage .questionView .options-wrapper .optionItem {
+  padding: 0;
+  margin: 0;
+}
+.doKnowPage .questionView .options-wrapper .optionItem .at-radio__option-wrap {
+  padding: 0rpx;
+}
+.doKnowPage .questionView .options-wrapper .optionItem .at-radio__option-container {
+  background-color: #f3f4f6;
+  margin: 24rpx 32rpx 32rpx 0rpx;
+  padding: 24rpx 32rpx 32rpx;
+  border-radius: 10rpx;
+}
+.doKnowPage .questionView .options-wrapper .optionItem .at-radio__option-container .at-radio__title {
+  font-size: 40rpx;
+}
+.doKnowPage .questionView .options-wrapper .optionItem .at-radio__option-container text {
+  color: #c15150;
+  font-weight: bolder;
+}
+.doKnowPage .questionView .controlBtn {
+  margin-bottom: 30rpx;
+}

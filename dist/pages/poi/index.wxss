@@ -1,0 +1,190 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[4]!./src/pages/poi/index.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.section {
+  height: 60rpx;
+  width: 100%;
+}
+.section .section_input {
+  width: 90%;
+  margin: 10rpx auto;
+  height: 60rpx;
+  border-radius: 6rpx;
+  padding: 10rpx 10rpx;
+  background-color: white;
+  -webkit-box-shadow: 6rpx 6rpx 6rpx #b2b2b2;
+          box-shadow: 6rpx 6rpx 6rpx #b2b2b2;
+  text-align: center;
+  color: #b2b2b2;
+  font-size: 30rpx;
+}
+/* 顶部弹窗标题 */
+.at-accordion {
+  position: absolute;
+  top: 108rpx;
+  right: 20rpx;
+}
+.at-accordion .at-accordion__header {
+  padding: 12rpx 18rpx;
+  -webkit-box-shadow: 6rpx 6rpx 6rpx #b2b2b2;
+          box-shadow: 6rpx 6rpx 6rpx #b2b2b2;
+  background-color: white;
+  border-radius: 16rpx;
+}
+.at-accordion .at-accordion__info {
+  text-align: center;
+}
+/*顶部弹窗下拉框*/
+.at-accordion__content {
+  width: 288rpx;
+  -webkit-box-shadow: 6rpx 6rpx 6rpx #b2b2b2;
+          box-shadow: 6rpx 6rpx 6rpx #b2b2b2;
+  background-color: white;
+  border-radius: 16rpx;
+}
+.at-accordion__content .item-extra__icon-arrow {
+  display: none;
+}
+.map_container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  /* 大背景蒙层 */
+  /* 地图 */
+}
+.map_container .mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background_color: rgba(0, 0, 0, 0);
+  /* 半透明黑色背景 */
+  z-index: 999;
+  /* 确保蒙层位于最上层 */
+}
+.map_container .map {
+  width: 100%;
+  height: 100%;
+}
+/* 获取用户当前定位图标 */
+.get_location_icon {
+  position: absolute;
+  right: 20rpx;
+  /*bottom: 102 150px;*/
+  background: white;
+  border-radius: 20rpx;
+  padding: 10rpx 10rpx;
+  -webkit-box-shadow: 6rpx 6rpx 6rpx #b2b2b2;
+          box-shadow: 6rpx 6rpx 6rpx #b2b2b2;
+}
+/* 底部弹框 */
+/* 共有的 */
+.detail_info {
+  position: absolute;
+  bottom: 12rpx;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 20rpx;
+  -webkit-box-shadow: 0rpx 0rpx 20rpx rgba(0, 0, 0, 0.4);
+          box-shadow: 0rpx 0rpx 20rpx rgba(0, 0, 0, 0.4);
+  margin: 0 20rpx 20rpx 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx;
+  /* 定位图标 */
+  /* 底部框 */
+}
+.detail_info .image_container {
+  -webkit-flex: 0 0 200rpx;
+      -ms-flex: 0 0 200rpx;
+          flex: 0 0 200rpx;
+}
+.detail_info .image_container .exhibition_image {
+  border-radius: 20rpx;
+}
+.detail_info .bottom_content {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 15rpx;
+  max-width: 452rpx;
+}
+.detail_info .bottom_content .content_header {
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* 具体信息 */
+}
+.detail_info .bottom_content .content_header .info_title {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 42rpx;
+}
+.detail_info .bottom_content .content_header .info_note {
+  color: grey;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+  /*28*/
+}
+.detail_info .bottom_content .content_header .info_distance {
+  color: grey;
+  font-size: 24rpx;
+  position: absolute;
+  bottom: 0;
+  right: 0rpx;
+}
+.detail_info .content_footer {
+  border-top: 2rpx solid #eee;
+  margin-top: 10rpx;
+  padding-top: 5rpx;
+  font-size: 24rpx;
+  overflow: hidden;
+  /* 隐藏溢出的文本 */
+  text-overflow: ellipsis;
+  /* 溢出部分用 ... 显示 */
+  display: -webkit-box;
+  /* 使用 WebKit 的盒子模型 */
+  -webkit-box-orient: vertical;
+  /* 垂直方向排列文本 */
+  -webkit-line-clamp: 2;
+  /* 限制显示的行数为两行 */
+  line-height: 26rpx;
+  /* 设定行高，确保每行的高度 */
+  max-height: 50rpx;
+  /* 限制最大高度，以适应两行文本 */
+}
+/* 搜索回来后 */
+.search_view {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45vh;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: auto;
+  background-color: #f3f3f3;
+  /*每一项*/
+}
+.search_view .search_item {
+  background-color: white;
+  padding: 24rpx 10rpx;
+  margin-bottom: 16rpx;
+  border-radius: 10rpx;
+}
+.search_view .search_item .bottom_content {
+  margin-left: 0;
+}

@@ -1,0 +1,38 @@
+.section{
+  height: 60px;
+  width: 100%;
+  /*返回按钮*/
+  .redirect_to_poi_page{
+    position: absolute;
+    left: 30px;
+    top: 22px;
+    z-index: 999;
+  }
+  .section-input{
+    width: 90%;
+    margin: 10px auto;//看是10rpx还是5rpx,是10rpx=5px
+    height: 60px;
+    border-radius: 6px;
+    padding: 10px 10px;
+    background-color: white;
+    box-shadow: 6px 6px 6px #b2b2b2;
+    text-align: center;
+    color: #b2b2b2;
+    font-size: 30px;
+  }
+  .text_box {
+    margin: 20px 50px;
+    border-bottom: 2px solid #c3c3c3;
+    padding-bottom: 20px;
+    transition: background-color 0.3s ease; /* 添加过渡效果 */
+
+    .text_box:hover {
+      background-color: #c3c3c3; /* 悬停时的背景颜色 */
+    }
+  }
+
+
+
+}
+
+

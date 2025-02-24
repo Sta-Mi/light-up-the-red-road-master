@@ -1,0 +1,52 @@
+.redLearnPage {
+  /* 外部容器 */
+  .at-tabs-pane--active{
+    background-color: #f3f3f3;
+    padding: 30rpx;
+  }
+  .info-card{
+    .at-list{
+      background-color: transparent;
+
+      .at-list__item{
+        margin-bottom: 30rpx;
+        background-color: white;
+        border-radius: 20rpx;
+
+          .item-content__info-note{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  .zhuanlan-card {
+    width: 100%;
+    max-width: 800rpx; /* 根据需要设置最大宽度 */
+    border-radius: 20rpx;
+    overflow: hidden;
+    box-shadow: 0 8rpx 16rpx rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 30rpx;
+
+    /* 上部红色背景 */
+    .card-header {
+      background-color: #a2231a;
+      color: #ffffff;
+      padding: 80rpx 40rpx;
+      text-align: center;
+      font-size: 42rpx;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+
+    /* 下部描述文字 */
+    .card-description {
+      padding: 30rpx;
+      color: #333333;
+      font-size: 26rpx;
+      line-height: 1.6;
+    }
+  }
+}

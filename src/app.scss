@@ -1,0 +1,86 @@
+.at-button--primary {
+  background: #a40001;
+  border-color: #a40001;
+}
+.at-list__item::after{
+  border: none;
+}
+.at-radio::before{
+  border: none;
+}
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.register-title{
+  text-align: center;
+  color: #333;
+}
+
+.registrationForm{
+  .input-group {
+    margin-bottom: 66rpx;
+    //文本框前面的列名
+    .input-column-name {
+      display: block;
+      margin-bottom: 16rpx;
+      font-weight: bold;
+      color: #555;
+    }
+    //文本框
+    .input-column{
+      padding: 24rpx;
+      border: 1px solid #ccc;
+      border-radius: 5rpx;
+      transition: border-color 0.3s;
+    }
+    .input-column:focus {
+      border-color: #a40001;
+      outline: none;
+    }
+    //提示
+    .input-column-alter{
+      margin-top: 12rpx;
+      font-size: 22rpx;
+      color: #a40001;
+    }
+  }
+  //注册按钮
+  .btn-register{
+    padding: 10rpx;
+    background-color: #a40001;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .btn-register:hover{
+    background-color: #a40001;
+  }
+}
+//跳转到登录页
+.footer-register{
+  text-align: center;
+  margin-top: 35px;
+
+  .register-footer-info{
+    font-size: 26rpx;
+    color: #888;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+  }
+  .to-navigator{
+    color: #a40001;
+    text-decoration: none;
+  }
+  .to-navigator:hover{
+    text-decoration: underline;
+  }
+}

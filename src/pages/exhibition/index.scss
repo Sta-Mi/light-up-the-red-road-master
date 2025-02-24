@@ -1,0 +1,24 @@
+.exhibitionPage {
+  .exhibitionTabPage {
+    .at-tabs__item--active {
+      color: #de1f1a;
+
+      .at-tabs__item-underline {
+        background-color: #de1f1a;
+      }
+    }
+
+    .at-tabs__header {
+      position: fixed;
+      top: 0;
+      z-index: 1000; /* 设置较高的 z-index 值，确保在最顶层 */
+    }
+    .knowImage {
+      width: 100%;
+      height: 170rpx;
+      margin-top: 30rpx;
+      margin-bottom: 30rpx;
+    }
+  }
+}
+

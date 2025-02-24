@@ -1,0 +1,138 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[4]!./src/pages/exhibition/index.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.exhibitionPage .exhibitionTabPage .at-tabs__item--active {
+  color: #de1f1a;
+}
+.exhibitionPage .exhibitionTabPage .at-tabs__item--active .at-tabs__item-underline {
+  background-color: #de1f1a;
+}
+.exhibitionPage .exhibitionTabPage .at-tabs__header {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  /* 设置较高的 z-index 值，确保在最顶层 */
+}
+.exhibitionPage .exhibitionTabPage .knowImage {
+  width: 100%;
+  height: 170rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[4]!./src/components/ExhibitionSwiper/index.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.exhibitionSwiper {
+  width: 100%;
+  height: 600rpx;
+}
+.exhibitionSwiper .swiper-img {
+  width: 100%;
+  height: 100%;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[4]!./src/components/ExhibitionList/index.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.exhibitionList {
+  background-color: #f3f3f3;
+  /*想要滚动:设置高度和滚动方向*/
+  height: 39vh;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: auto;
+}
+.exhibitionList .at-list {
+  background-color: transparent;
+}
+.exhibitionList .listView {
+  /* 共有的 */
+}
+.exhibitionList .listView .detail_info {
+  background-color: white;
+  border-radius: 10rpx;
+  margin: 0 20rpx 20rpx 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx;
+  /* 定位图标 */
+  /* 底部框 */
+}
+.exhibitionList .listView .detail_info .image_container {
+  -webkit-flex: 0 0 200rpx;
+      -ms-flex: 0 0 200rpx;
+          flex: 0 0 200rpx;
+}
+.exhibitionList .listView .detail_info .image_container .exhibition_image {
+  border-radius: 20rpx;
+}
+.exhibitionList .listView .detail_info .bottom_content {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 15rpx;
+  max-width: 452rpx;
+}
+.exhibitionList .listView .detail_info .bottom_content .content_header {
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* 具体信息 */
+}
+.exhibitionList .listView .detail_info .bottom_content .content_header .info_title {
+  margin: 0;
+  font-size: 38rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.exhibitionList .listView .detail_info .bottom_content .content_header .info_address {
+  color: grey;
+  font-size: 24rpx;
+  margin-top: 18rpx;
+  overflow: hidden;
+  /* 隐藏溢出的文本 */
+  text-overflow: ellipsis;
+  /* 溢出部分用 ... 显示 */
+  display: -webkit-box;
+  /* 使用 WebKit 的盒子模型 */
+  -webkit-box-orient: vertical;
+  /* 垂直方向排列文本 */
+  -webkit-line-clamp: 2;
+  /* 限制显示的行数为两行 */
+  line-height: 26rpx;
+  /* 设定行高，确保每行的高度 */
+  max-height: 50rpx;
+  /* 限制最大高度，以适应两行文本 */
+}
+.exhibitionList .listView .detail_info .bottom_content .content_header .info_note {
+  color: grey;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.exhibitionList .listView .detail_info .bottom_content .content_header .info_distance {
+  color: grey;
+  font-size: 24rpx;
+  position: absolute;
+  bottom: 0;
+  right: 0rpx;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[4]!./src/components/ExhibitionListByFilter/index.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.exhibitionListByCategory .at-tabs__header {
+  position: relative;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+  margin-top: 88rpx;
+}
+.exhibitionListByCategory .at-tabs__body {
+  margin-top: 0;
+}

@@ -1,0 +1,76 @@
+.exhibitionList {
+  background-color: #f3f3f3;
+  /*想要滚动:设置高度和滚动方向*/
+  height: 39vh;
+  flex-direction: column;
+  overflow-y: auto;
+  .at-list{
+    background-color: transparent;
+  }
+  .listView {
+    /* 共有的 */
+    .detail_info {
+      background-color: white;
+      border-radius: 10px;
+      margin: 0 20px 20px 20px;
+      display: flex;
+      padding: 20px;
+
+
+      /* 定位图标 */
+      .image_container {
+        flex: 0 0 200px;
+        .exhibition_image {
+          border-radius: 20px;
+        }
+      }
+
+      /* 底部框 */
+      .bottom_content {
+        flex: 1;
+        margin-left: 15rpx;
+        max-width: 452rpx;// 下面的才会生效
+
+        .content_header{
+          position: relative;
+          display: flex;
+          flex-direction: column;
+
+          /* 具体信息 */
+          .info_title {
+            margin: 0;
+            font-size: 38rpx;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+          .info_address{
+            color: grey;
+            font-size: 24rpx;
+            margin-top: 18rpx;
+            overflow: hidden; /* 隐藏溢出的文本 */
+            text-overflow: ellipsis; /* 溢出部分用 ... 显示 */
+            display: -webkit-box; /* 使用 WebKit 的盒子模型 */
+            -webkit-box-orient: vertical; /* 垂直方向排列文本 */
+            -webkit-line-clamp: 2; /* 限制显示的行数为两行 */
+            line-height: 26rpx; /* 设定行高，确保每行的高度 */
+            max-height: 50rpx; /* 限制最大高度，以适应两行文本 */
+          }
+          .info_note{
+            color: grey;
+            font-size: 24rpx;
+            margin-top: 10rpx;
+          }
+          .info_distance {
+            color: grey;
+            font-size: 24rpx;
+            position: absolute;
+            bottom: 0;
+            right: 0rpx;
+          }
+        }
+      }
+    }
+
+  }
+}

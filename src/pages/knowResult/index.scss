@@ -1,0 +1,52 @@
+$img: '../../assets/know-result-background.jpg'; // 本地图片
+.knowResultPage {
+  height: 100vh;
+  width: 100%; /* 设置元素宽度 */
+  background-image: url($img); /* 设置背景图片 */
+  background-size: cover; /* 背景图片覆盖整个元素区域 */
+  background-repeat: no-repeat; /* 背景图片不重复 */
+  background-position: center; /* 背景图片居中 */
+  //background: linear-gradient(to bottom, #a50102, rgba(250, 250, 250));
+  //padding: 0rpx 30rpx;
+
+  .title {
+    color: white;
+    padding-top: 48px;
+    text-align: center;
+    margin-bottom: 240rpx;
+    font-size: 40rpx;
+  }
+
+  .subTitle {
+    margin-bottom: 48px;
+    font-size: 60rpx;
+    text-align: center;
+  }
+
+  .questionItemView {
+    padding: 30rpx;
+
+    .questionTitle {
+      color: black;
+      font-size: 35rpx;
+      font-weight: 400;
+    }
+
+    .questionSelects {
+      padding: 15rpx;
+      margin: 15rpx;
+      border-radius: 8rpx;
+      box-shadow: 3rpx 3rpx 5rpx 1rpx rgba(0, 0, 0, 0.23);
+
+      .questionSelectItem {
+        font-size: 30rpx;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .enterBtn {
+    width: 15vw;
+  }
+
+}

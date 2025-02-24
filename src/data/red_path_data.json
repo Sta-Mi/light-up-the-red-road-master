@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "pathName": "二七革命",
+    "pathExhibitionIdList": [
+      1,
+      3,
+      2
+    ],
+    "pathImageUrl": "../../assets/wei-ren-zu-ji.jpg"
+  },
+  {
+    "id": 2,
+    "pathName": "伟大足迹",
+    "pathExhibitionIdList": [
+      1,
+      2
+    ],
+    "pathImageUrl": "../../assets/wei-ren-zu-ji.jpg"
+  },
+  {
+    "id": 3,
+    "pathName": "建军策源",
+    "pathExhibitionIdList": [
+      3,
+      2
+    ],
+    "pathImageUrl": "../../assets/jian-jun-ce-yuan.jpg"
+  },
+  {
+    "id": 4,
+    "pathName": "革命烽火",
+    "pathExhibitionIdList": [
+      1,
+      3
+    ],
+    "pathImageUrl": "../../assets/ge-ming-lie-huo.png"
+  }
+]
